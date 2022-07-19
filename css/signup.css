@@ -1,0 +1,98 @@
+/* Global styling */
+body{
+    margin: 4rem 4rem;
+    display: flex;
+    justify-content: space-between ;
+    background: url(../assets/signup.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#login{
+    margin-right: 20rem;
+}
+.btn{
+    border: none;
+    padding: 1em 2em;
+    border-radius: 1em;
+}
+a{
+    text-decoration: none;
+}
+/* Global Styling  */
+
+
+
+
+
+
+
+/* Left */
+
+
+#reason{
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+
+#login-button{
+    background-color: #fd5949;
+    
+}
+#login-button:hover{
+    background: none;
+    border: 1px solid #fd5949;
+}
+
+div#login{
+    margin-left: 2em;
+   
+    text-align: center;
+    margin-top: 7rem;
+}
+/* Left */
+
+
+
+/* Right */
+#tandt{
+    color: #fd5949;
+}
+#submit{
+    width: 20em;
+    background-color: #fd5949;
+}
+#submit:hover{
+    background: none;
+    border: 1px solid #fd5949;
+}
+input#checkbox:checked{
+    background: #fd5949;
+}
+
+.text-input{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+.emailp{
+    width: 20em;
+}
+.sign-uptext{
+    text-align: center;
+}
+#alternative{
+    text-align: center;
+    margin-right: 7em;
+}
+.bottom{
+    margin-left: 5rem;
+}
+.alternative-links{
+   
+    margin-right: 1rem;
+    transform: translateX(-20em);
+    font-size: 24px;
+}
+/* Right */

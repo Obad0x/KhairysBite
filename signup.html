@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KhairysBite | Create or Login In to your Acount</title>
+    <link rel="stylesheet" href="./css/signup.css">
+    <script src="https://kit.fontawesome.com/4e0087b9fd.js" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" />
+</head>
+<body class="signup">
+    <!--x-x-x-x-x-x-xx-x--x-x-xx--xx-- left x-x-x-x-x-x-x-x-x-x-x--->
+    <div id="login">
+        <h3>already have an account?</h3>
+        <span id="reason">Join KhairysBite for a mouth watering desert!!!</span>
+        <br>
+        <br>
+       <a href="./Login.html"><button class="btn" id="login-button"> Log in </button></a> 
+        
+    </div>
+    <!--x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-Left x-x-x-x-x-x-x-x-x-x-x-x---->
+
+    <!-------------------- right ---------->
+    <div class="right">
+        <h3 class="sign-uptext">Sign up for a new account</h3>
+        <p class="sign-uptext">Lets get you all setup so you can start ordering<br>
+             your next meal</p>
+        <form>
+            <div class="name">
+               
+                
+               
+               <label for="first-name">hello</label>
+               <label for="last-name">hello</label>
+              
+               <br>
+               <input class="text-input" type="text" name="first-name" placeholder="First-name"  id="name" required>
+               
+                <input class="text-input" type="text" name="last-name" placeholder="Last-name" id="name" required>
+
+               
+            </div>
+            <br>
+            Email
+            <br>
+            <input class="text-input emailp"" type="email" placeholder="Type in Your Email" required>          
+            <br>
+            <br>
+            password
+            <br>
+            <input class="text-input emailp" type="password" placeholder="Type In Your Password" required>
+            <br>
+            <input type="checkbox" value="t&T" name="tandt" id="checkbox"  required>
+            <label for="tandt"> I accept the <a id="tandt" href="">Terms and conditions</a> </label>
+            <br>
+            <br>
+            <input type="submit" class="btn" id="submit"> 
+        </form>
+        <p id="alternative">or sign up using</p>
+        <ul class="bottom">
+            <a class="alternative-links"><i class="fa-brands fa-facebook"></i></a>
+            <a class="alternative-links"><i class="fa-brands fa-google"></i>
+         
+        </ul>
+    </div>
+      <!-------------------- right ---------->
+      <script src="./javascript/login.js"></script>
+</body>
+</html>

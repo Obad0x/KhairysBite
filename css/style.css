@@ -1,0 +1,294 @@
+
+
+/* Global Styling */
+*{
+    margin: 0;
+    border: 0;
+}
+
+
+
+
+/* Gloibal Styling */
+
+/* -----x-x-x-x-x-x-x-x-x-xx-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x- */
+
+/* x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x--x-x-x-x-x-x- */
+
+/* nav bar */
+nav{
+display: flex;
+justify-content: space-between;
+min-height: 10vh;
+max-height: 10vh;
+background-color: #ffff;
+overflow: hidden;
+
+}
+
+brand-name{
+    display: block;
+    margin-left: 10rem;
+    
+}
+
+h1.brand{
+    margin-top: .5em;
+
+}
+
+.nav-items{
+    margin-top: 1em;
+}
+
+.nav-links{
+    margin:  2rem 0rem;
+    font-family: 'Alegreya Sans', sans-serif ;
+    padding: 2em 1.1em;
+}
+.nav-links:hover{
+    background-color: #fb607f;
+    color: rgb(255, 255, 255);
+}
+div.social-links{
+    margin-top: 1em;
+}
+
+#logo{
+height: 50px;
+width: 100px;
+   
+}
+
+.btn{
+    border: none;
+    padding: 1em;
+    border-radius: .7em;
+    background-color: #fb607f;
+}
+
+.btn:hover{
+    background:none;
+    border: 1px solid #fb607f;
+}
+.icons{
+    font-size: 32px;
+}
+i#wh{
+  color: #4fce5d;
+}
+i#inst{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* nav bar */
+
+/* -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x- */
+
+
+/* --------Main--------- */
+
+main#main{
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/main.jpg);
+    background-size: 100%;
+    min-height: 110vh;
+   max-height: 100vh;
+   color: #fff;
+}
+
+
+div#cta{
+    margin-top: 50vh;
+}
+
+button#order{
+    margin-left: 10rem;
+}
+
+h1.slogan{
+    font-family: 'Poppins';
+}
+/* Main */
+
+/* -x-x-x-xx--x-xx-x--xx-x-x-x-x-x-x-x-x-x- */
+
+
+/* Services */
+section#services{
+   height: 70vh;
+   max-height: 70vh;
+   margin: 3rem;
+}
+h1#section-title{
+    font-family: 'Poppins';
+  margin: 0 25rem;
+    font-size: 48px;
+    
+}
+
+.card{
+    height: 20em;
+    width: 20em;
+  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   overflow: hidden;
+}
+
+#card-image{
+height: 17em;
+width: 20em;
+}
+.range{
+    transform: translateY(-4rem) translateX(15rem);
+ 
+}
+#services-text{
+    margin-left: 7rem;
+    font-family: 'Roboto'  ;
+}
+/* Services */
+
+
+
+/* Anout US */
+#image{
+    margin-top: 4rem;
+    background-color: #fd5949;
+    height: 250px;
+    width: 250px;
+    border-radius: 70%;
+    background-image: url(../assets/rabia.jpg);
+    background-size: 90%;
+    background-position: 1rem;
+}
+
+div#info{
+    display: flex;
+    justify-content: space-between;
+}
+.bio{
+    margin-top: 5rem;
+    font-family: 'Poppins';
+    text-align: left;
+    margin-left: 7rem;
+
+    margin-right: 0em;
+}
+.Services{
+    display: flex;
+    justify-content: space-between;
+}
+/* Anout US */
+
+
+
+/* Contact-Me */
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact{
+
+  background-color: #fff;
+  transform: translateY(150px);
+}
+
+.input{
+    border: 1.5px solid #fd5949;
+    margin-left: 5rem;
+    margin-top: .1rem;
+    font-family: 'Poppins';
+}
+#message{
+    height: 7rem;
+    width: 13em;
+}
+
+#submit{
+    background-color: #fd5949;
+    margin-left: 5rem;
+    height: 2em;
+    width: 13em;
+    margin-top: .4em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#contact-method{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins';
+}
+#get-in-touch{
+    font-family: 'Poppins';
+}
+/* Contact-Me */
+
+
+/* Footer */
+
+    #footer{
+        height: 40vh;
+        background-color: #fd5949;
+        color: white;
+
+    
+    }
+  
+        #footer-top{
+            display: flex;
+            justify-content: space-between;
+            
+            transform: translateY(3em);
+        }
+        .Contact{
+            margin-top: 2em;
+        }
+            .footer-container{
+                margin: 0em 5rem;
+            }
+
+            #margin{
+                margin-right: 2rem;
+            }
+            #footer-bottom{
+                transform: translateY(4em);
+            }
+            .footer-nav{
+                margin: 0em 4em;
+            }
+/* Footer */
+
+
+#line{
+   background-color: #000000;
+   height: 2px;
+  transform: translateX(17em);
+   width: 500px;
+}
+/* -x-x-x-x-x--xx */
+
+
+/* Aniamtions And transitions*/
+
+.reveal{
+    position: relative;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.reveal.active{
+    
+    transform: translateY(0px);
+    opacity: 1;
+
+}
