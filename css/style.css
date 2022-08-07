@@ -21,7 +21,7 @@ display: flex;
 justify-content: space-between;
 min-height: 10vh;
 max-height: 10vh;
-background-color: #ffff;
+background-color: rgb(185, 24, 24);
 overflow: hidden;
 
 }
